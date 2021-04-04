@@ -9,7 +9,7 @@ Password_manager = mongo.db.table
 
 @app.route('/',methods=["POST","GET"])
 def hello_world():
-    return render_template("firstpage.html", title="Password_manager")
+    return render_template("index.html", title="Password_manager")
 
 
 
